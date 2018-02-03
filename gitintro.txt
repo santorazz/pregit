@@ -1,0 +1,62 @@
+Here are my gits question answer:
+
+Git status: Displays the git environment
+
+Git add --all: it copies all the files in the directory for the staging process.
+
+Git commit -m "added job"- stages the file for commit, -m will save a step as it is followed 
+
+git pull- git pull will get the changes from the remote repo to the local.  If the repo has already been cloned, git pull will only pull the changes that are made after cloning which was done earlier.
+
+git push- git push will stage the files to the Remote repo
+
+git merge- merge will concatenate the branch to the master
+
+git stash- will save the uncommitted files for future use. git stash save will save the file and list will display the list. Git pop will bring the file back
+
+fit rebase- reapplies commits on top of another base tip, which will change the prior master branch to a commit and the later commit to the Master.
+
+git cherry pick- it picks particular commit from one branch to another
+
+git fetch- brings the repo to the staging in our local repo
+
+git log- prints all the activities of the commit
+
+git branch- separates from the masters, where developers will make the functional changes , test and make push it to the masters when done
+
+git checkout -b <branch>: after creating the branch, it will checkout to the branch 
+
+git clone <repo>: clones the copy of the remote to the local
+git rm file: removes the file from the repo
+
+git reset --hard head- delete unwanted commit forever
+
+find . -name "*.sh" - finds all the file with .sh extension
+ grep "abc" abc.txt- looks for ABC in the entire text
+
+find.-name "*.sh"-exec grep -i "abc"{}\ - 
+
+cut -d -c1 abc.txt- deletes the column of the filename abc.txt
+
+sed -i 's|abc|123|g' abc.txt- susbtitute abc to 123 in the whole file.
+
+ping <ip> : to check the server is up or not
+
+netcat <ip>- to check if the IP address is accessible
+
+nohup- runs any process or find in the background
+
+catabc.txt > abc.log= sends the output of file abc.txt to abc.log
+
+cat abc.txt 2>&1 abc.log - send the error and output to abc.log
+
+df -h = shows the disk space available in human treadle format
+
+iptables= configure inbound and outbound traffic
+
+finger= man 
+
+tar= archive
+
+kill -9= hard reset
+
